@@ -54,8 +54,10 @@ gulp.task('less', function() {
 	src(
 			['app/blocks'],
 			[
-				{block: 'header-page'},
-				{block: 'menu'}
+				{block: 'main-page'},
+				{block: 'header-section'},
+				{block: 'menu-region'},
+				{block: 'menu-user'}
 			],
 			'less',
 			{
