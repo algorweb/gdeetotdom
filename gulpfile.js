@@ -59,7 +59,9 @@ gulp.task('less', function() {
 				{block: 'menu-region'},
 				{block: 'menu-user'},
 				{block: 'logo'},
-				{block: 'menu-main'}
+				{block: 'menu-main'},
+				{block: 'absolut-logo'},
+				{block: 'baner'}
 			],
 			'less',
 			{
