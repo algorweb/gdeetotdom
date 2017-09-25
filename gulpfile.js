@@ -60,11 +60,13 @@ gulp.task('less', function() {
 				{block: 'menu-user'},
 				{block: 'logo'},
 				{block: 'menu-main'},
-				{block: 'absolut-logo'},
 				{block: 'baner'},
 				{block: 'content'},
 				{block: 'page'},
-				{block: 'side-bar'}
+				{block: 'bread-crumbs'},
+				{block: 'side-bar'},
+				{block: 'stock'}
+
 			],
 			'less',
 			{
