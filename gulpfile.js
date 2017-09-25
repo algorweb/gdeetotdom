@@ -65,7 +65,8 @@ gulp.task('less', function() {
 				{block: 'page'},
 				{block: 'bread-crumbs'},
 				{block: 'side-bar'},
-				{block: 'stock'}
+				{block: 'stock'},
+				{block: 'all-stock'}
 
 			],
 			'less',
