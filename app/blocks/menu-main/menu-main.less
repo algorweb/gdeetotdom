@@ -1,7 +1,7 @@
 .menu-main{
 	display: block;
 	position: relative;
-	width: 60%;
+	width: 62%;
 	text-align: left;
 	color: #b9b9c3;
 	font-size: 15px;
@@ -43,6 +43,17 @@
 	&:hover.menu-main__item-ref_spec{
 		padding: 9px 3px 14px 25px;
 	}
+	&:hover.menu-main__item-ref_absolut{
+		border-bottom: none;
+		padding: 9px 3px 17px;
+	}
+}
+
+#absolut-svg{
+	fill: #fff;
+}
+#absolut-svg:hover{
+	fill: #00CCFF; 
 }
 
 .menu-main__item-ref_active{
@@ -70,3 +81,10 @@
 		padding: 24px 0 0 17px;
 	}
 }
+// .menu-main__item-ref_absolut
+// #Layer_2 { fill: #fff; }
+
+// .menu-main__item-ref_absolut:hover > #Layer_2 { fill: #00CCFF; }
+.menu-main__item-ref:hover > #Layer_2 { fill: #00CCFF; }
+
+    // #Layer_2:hover { fill: #00CCFF; }

@@ -1,3 +1,4 @@
+<?xml-stylesheet type="text/css" href="../css/main.min.css"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="78" height="14.93" viewBox="0 0 78 14.93"><defs>
 	<!-- <style>.cls-1{fill:#fff;}</style> -->
 	<!-- .cls-1 { fill: #fff; } 
@@ -8,16 +9,16 @@
     .cls-1:hover ~ .cls-1 .cls-1 { fill: red; }
     .cls-1:hover + .cls-1 .cls-1 { fill: red; } -->
 
-	<style type="text/css">
+	<!-- <style type="text/css">
     <![CDATA[
     #Layer_2 { fill: #fff; }
     #Layer_2:hover { fill: #00CCFF; }
     ]]>
-  </style>
+  </style> -->
 
 </defs>
 <title>an-logo-white</title>
-<g id="Layer_2" data-name="Layer 2">
+<g id="absolut-svg" data-name="Layer 2">
 	<g id="Layer_1" data-name="Layer 1">
 
 <path class="cls-1" d="M68,14.32h5a5,5,0,0,0,0-10V6.46a2.86,2.86,0,0,1,.24,5.71H70.1V0H68Z"/>
