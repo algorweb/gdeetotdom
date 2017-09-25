@@ -15,4 +15,21 @@ $(function() {
 	});
 	// fixed menu after scroll / END
 
+	function setEqualHeight(columns) {
+		var tallestcolumn = 0;
+		columns.each(
+			function() {
+				currentHeight = $(this).height();
+				if(currentHeight > tallestcolumn) {
+					tallestcolumn = currentHeight;
+				}
+			}
+			);
+		columns.height(tallestcolumn);
+	}
+	$(document).ready(function() {
+		setEqualHeight($(".other-stock__wrap"));
+		setEqualHeight($(".other-stock__item"));
+	});
+
 });
